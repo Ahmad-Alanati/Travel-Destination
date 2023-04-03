@@ -1,8 +1,10 @@
 import Home from "./Components/home/Home";
+let data = require('./Data/db.json');
 
 function App() {
+  
   return (
-    <Home/>
+    <Home data={data}/>
   );
 }
 

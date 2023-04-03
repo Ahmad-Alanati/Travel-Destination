@@ -1,9 +1,10 @@
 import Header from "../header/Header"
 import Tours from "../tours/Tours"
 import Footer from "../footer/Footer"
-let data = require('../../Data/db.json');
 
-function Home() {
+
+function Home(props) {
+    const data = props.data;
     return (
         <>
             <Header />
